@@ -1,0 +1,374 @@
+/* Reset básico para eliminar márgenes y relleno */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Evita barras de desplazamiento */
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    position: relative;
+    height: 100vh; /* 100% de la altura visible */
+    width: 100vw; /* 100% del ancho visible */
+    overflow: hidden;
+}
+
+/* Contenedor de unidades */
+.units-container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+/* Unidad individual con fondo compartido */
+.unit-section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    overflow: hidden;
+}
+
+.unit-section.active {
+    display: block;
+    opacity: 1;
+}
+
+/* Fondo compartido para toda la unidad */
+.unit-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    overflow: hidden;
+}
+
+.unit-background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Overlay para toda la unidad */
+.unit-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+}
+
+/* Carrusel de eventos */
+.events-carousel {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    transition: transform 0.5s ease;
+    position: relative;
+    z-index: 1;
+}
+
+/* Tarjeta de evento - ya no necesita su propio fondo */
+.event-card {
+    min-width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 0;
+}
+
+.event-main-content {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    padding: 2rem;
+    z-index: 10;
+    position: relative;
+}
+
+/* Carrusel de imágenes dentro de un evento */
+.image-carousel {
+    position: relative;
+    width: 600px;
+    height: 500px;
+    overflow: hidden;
+    margin-right: 2rem;
+    flex-shrink: 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease;
+}
+
+.event-image {
+    width: 600px;
+    min-width: 600px;
+    height: 500px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.event-image:hover {
+    transform: scale(1.05);
+}
+
+/* Botones de navegación para el carrusel de imágenes */
+.image-nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 11;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+.image-nav-button:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.prev-img {
+    left: 10px;
+}
+
+.next-img {
+    right: 10px;
+}
+
+/* Modal para imágenes a pantalla completa */
+.image-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    position: relative;
+    width: 90%;
+    max-width: 1200px;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-image-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.modal-image-wrapper {
+    transform-origin: center;
+    transition: transform 0.1s ease-out;
+}
+
+.modal-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    user-select: none;
+}
+
+.close-modal {
+    position: absolute;
+    top: -40px;
+    right: 0;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.modal-nav-button {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: none;
+    padding: 1rem 1.5rem;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 1001;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+}
+
+.modal-nav-button:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.prev-modal {
+    left: 20px;
+}
+
+.next-modal {
+    right: 20px;
+}
+
+.event-content {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 1.5rem;
+    border-radius: 8px;
+    max-width: 60%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Controles de zoom */
+.zoom-controls {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+    z-index: 1001;
+}
+
+.zoom-button {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zoom-button:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+/* Índice global */
+.global-timeline {
+    position: fixed;
+    top: 100vh;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    padding: 2rem;
+    background: #f5f5f5;
+    z-index: 100;
+    transition: transform 0.5s ease;
+}
+
+.global-timeline.active {
+    transform: translateY(-100%);
+}
+
+/* Filas de la línea de tiempo */
+.timeline-rows {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.timeline-row {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* Encabezados de unidades */
+.unit-header {
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    background: #333;
+    color: white;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+}
+
+.unit-header:hover {
+    background: #555;
+}
+
+/* Eventos en la línea de tiempo */
+.timeline-event {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.timeline-event:hover {
+    transform: scale(1.1);
+}
+
+/* Botones de navegación */
+.navigation-buttons {
+    position: relative;
+    z-index: 100;
+}
+
+.nav-button {
+    position: fixed;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    border: none;
+    z-index: 200;
+    transition: all 0.3s ease;
+}
+
+.nav-button:hover {
+    background: rgba(0,0,0,0.8);
+}
+
+.left-btn { left: 20px; top: 50%; }
+.right-btn { right: 20px; top: 50%; }
+.down-btn { bottom: 20px; left: 50%; transform: translateX(-50%); }
+.up-btn { top: 20px; left: 50%; transform: translateX(-50%); }

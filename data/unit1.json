@@ -1,0 +1,23 @@
+{
+    "id": 1,
+    "events": [
+      {
+        "title": "Revolución Francesa",
+        "description": "Impacto en la moda europea...",
+        "images": ["https://historia.nationalgeographic.com.es/medio/2022/11/25/libertad-guiando-al-pueblo-cuadro-pintado-por-eugene-delacroix-en-1830-y-expuesto-en-el-museo-del-louvre_4ca6758f_747x599.jpg"],
+        "date": "1789-1799"
+      },
+      {
+        "title": "Coronación de Napoleon",
+        "description": "Impacto en la moda española...",
+        "images": ["https://historia.nationalgeographic.com.es/medio/2023/11/23/el-hombre-mas-spoderoso-de-europa_f48ac1a2_231123153943_1280x800.jpg"],
+        "date": "1799-1800"
+      },
+      {
+        "title": "Huida de Napoleon",
+        "description": "Impacto en la moda española...",
+        "images": ["https://historia.nationalgeographic.com.es/medio/2023/11/23/el-hombre-mas-spoderoso-de-europa_f48ac1a2_231123153943_1280x800.jpg"],
+        "date": "1799-1800"
+      }
+    ]
+  }

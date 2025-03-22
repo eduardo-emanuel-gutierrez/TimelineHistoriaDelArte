@@ -1,0 +1,22 @@
+{
+    "id": 2,
+        "events": [
+            {
+                "title": "Época Colonial",
+                "description": "Influencia española en la vestimenta...",
+                "images": ["img/image.png"],
+                "date": "1789"
+            },
+            {
+                "title": "Época Post-Colonial",
+                "description": "Influencia española en la vestimenta argentina...",
+                "images": ["img/image.png","img/modaArgentina.png"],
+                "date": "1790"
+            },
+            {
+                "title": "Época Virreynato",
+                "description": "Influencia española en la vestimenta argentina...",
+                "images": ["img/image.png","img/modaArgentina.png"]
+            }
+        ]
+}

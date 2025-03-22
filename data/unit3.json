@@ -1,0 +1,17 @@
+{
+    "id": 3,
+    "events": [
+        {
+            "title": "Época Colonial",
+            "description": "Influencia española en la vestimenta...",
+            "images": ["img/image.png"],
+            "date": "1789"
+        },
+        {
+            "title": "Época Post-Colonial",
+            "description": "Influencia española en la vestimenta argentina...",
+            "images": ["img/image.png"],
+            "date": "1790"
+        }
+    ]
+}
