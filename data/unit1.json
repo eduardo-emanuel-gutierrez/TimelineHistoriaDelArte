@@ -1,23 +1,131 @@
 {
-    "id": 1,
-    "events": [
-      {
-        "title": "Revolución Francesa",
-        "description": "Impacto en la moda europea...",
-        "images": ["https://historia.nationalgeographic.com.es/medio/2022/11/25/libertad-guiando-al-pueblo-cuadro-pintado-por-eugene-delacroix-en-1830-y-expuesto-en-el-museo-del-louvre_4ca6758f_747x599.jpg"],
-        "date": "1789-1799"
-      },
-      {
-        "title": "Coronación de Napoleon",
-        "description": "Impacto en la moda española...",
-        "images": ["https://historia.nationalgeographic.com.es/medio/2023/11/23/el-hombre-mas-spoderoso-de-europa_f48ac1a2_231123153943_1280x800.jpg"],
-        "date": "1799-1800"
-      },
-      {
-        "title": "Huida de Napoleon",
-        "description": "Impacto en la moda española...",
-        "images": ["https://historia.nationalgeographic.com.es/medio/2023/11/23/el-hombre-mas-spoderoso-de-europa_f48ac1a2_231123153943_1280x800.jpg"],
-        "date": "1799-1800"
-      }
-    ]
-  }
+  "id": 1,
+  "events": [
+    {
+      "title": "Revolución Francesa",
+      "description": "Derrocó las tradiciones que habían gobernado Europa durante siglos, transformando a los súbditos franceses en ciudadanos y estableciendo una nueva constitución. Abolió la nobleza y fundamentó la sociedad en conceptos de tolerancia e igualdad ante la ley, gobernada por una Asamblea Nacional electa. Sus efectos dividieron la política europea entre izquierda (apoyando ideas revolucionarias) y derecha (favoreciendo la tradición).",
+      "images": ["https://historia.nationalgeographic.com.es/medio/2022/11/25/libertad-guiando-al-pueblo-cuadro-pintado-por-eugene-delacroix-en-1830-y-expuesto-en-el-museo-del-louvre_4ca6758f_747x599.jpg"],
+      "date": "1789-1799"
+    },
+    {
+      "title": "Influencia en moda, arte y cultura",
+      "description": "Tuvo un profundo efecto en los aspectos sociales, políticos y de la moda del siglo XIX. Llevó a un igualitarismo sartorial que fue posteriormente revertido por el régimen napoleónico.",
+      "images": ["img/Unidad1/escarapela.png"],
+      "date": ""
+    },
+    {
+      "title": "La Coronación de Napoleón y Josefina",
+      "description": "La pintura más famosa de Jacques Louis David, La Consagración del Emperador Napoleón y la Coronación de la Emperatriz Josefina, inmortalizó la coronación en Notre Dame, que fue transformada para parecer un templo romano para la ocasión. La vasta tela se exhibe hoy en el Louvre.",
+      "images": ["https://static.nationalgeographicla.com/files/styles/image_3200/public/bal_158223.webp?w=1450&h=816"],
+      "date": "1806-1807"
+    },
+    {
+      "title": "Influencia en moda, arte y cultura",
+      "description": "Bajo su guía, París se transformó en una ciudad moderna con la construcción de monumentos como el Arco de Triunfo y la iglesia de La Madeleine. Su coronación y la de Josefina revivieron el vestido de corte y pusieron fin al igualitarismo sartorial de la Revolución. Encontró en Jacques Louis David un ministro de propaganda que influyó en el estilo de los interiores y la moda de la época, conocido como el Directoire, inspirado en la Roma y Grecia clásicas.",
+      "images": ["img/Unidad1/josefinaBonaparte.png"],
+      "date": "1806-1807"
+    },
+    {
+      "title": "Fin del Periodo Napoleónico",
+      "description": "Bajo su guía, París se transformó en una ciudad moderna con la construcción de monumentos como el Arco de Triunfo y la iglesia de La Madeleine. Su coronación y la de Josefina revivieron el vestido de corte y pusieron fin al igualitarismo sartorial de la Revolución. Encontró en Jacques Louis David un ministro de propaganda que influyó en el estilo de los interiores y la moda de la época, conocido como el Directoire, inspirado en la Roma y Grecia clásicas.",
+      "images": ["img/Unidad1/finNapoleon.png"],
+      "date": "1815"
+    },
+    {
+      "title": "Influencia en moda, arte y cultura",
+      "description": "El período napoleónico transformó Francia y gran parte de Europa. Tras su derrota, surgió en Alemania y Gran Bretaña el movimiento cultural del Romanticismo, que expresaba la confusión e inseguridad de la época, rechazando el capitalismo y defendiendo los sentimientos y emociones.",
+      "images": ["img/Unidad1/caminante-sobre-el-mar-de-nubes.jpg"],
+      "date": ""
+    },
+    {
+      "title": "Reinado de la Reina Victoria",
+      "description": "Ascendió al trono en 1837 y reinó durante 63 años.En su juventud fue considerada una líder de estilo en Europa, pero luego priorizó la funcionalidad de la moda. Su prolongado luto tras la muerte de su esposo disminuyó la influencia de la corte británica en la moda. Su esposo, el Príncipe Alberto, fue una figura clave en la moda masculina y la organización de la Gran Exposición.",
+      "images": ["img/Unidad1/reinaVictoria.png"],
+      "date": "1837-1901"
+    },
+    {
+      "title": "Apertura de la primera tienda departamental, Bon Marché en París",
+      "description": "Marcó una nueva era en el comercio minorista, reuniendo ropa y accesorios para toda la familia bajo un mismo techo, fomentando la exploración y ofreciendo precios fijos y otras comodidades.Hizo que la moda y otros artículos fueran más accesibles al público y convirtió las compras en un pasatiempo. Fue un precursor del concepto moderno de grandes almacenes.",
+      "images": ["img/Unidad1/AuBonMarche.jpg","img/Unidad1/Bon_Marche.jpg"],
+      "date": "1852"
+    },
+    {
+      "title": "Invención de la Máquina de Coser y su Patente por Isaac Singer",
+      "description": "Un avance tecnológico clave que impulsó la producción en masa en la industria de la moda.Aunque se le llamó el \"democratizador de la moda\", inicialmente no liberó a las mujeres debido a los bajos salarios en la costura. Sin embargo, llevó al desarrollo de patrones de ropa estándar y aceleró la producción de ropa lista para usar.",
+      "images": ["img/Unidad1/singer.png"],
+      "date": "1846"
+    },
+    {
+      "title": "Establecimiento de la Casa de Worth",
+      "description": "Charles Frederick Worth, considerado el fundador de la alta costura, abrió su casa de moda en París. Introdujo la presentación de colecciones de temporada y prendas hechas a medida basadas en modelos (toiles).",
+      "images": ["img/Unidad1/worth.jpg"],
+      "date": "1857"
+    },
+    {
+      "title": "Influencia en moda, arte y cultura",
+      "description": "Elevó la profesión de diseñador de moda a un arte. Influyó significativamente en la moda femenina con innovaciones como el vestido túnica, la crinolinette y el polisón. Vistió a figuras importantes como la Emperatriz Eugenia, lo que marcó tendencias en toda Europa.",
+      "images": ["img/Unidad1/worth.jpg"],
+      "date": ""
+    },
+    {
+      "title": "Guerra Franco-Prusiana",
+      "description": "Un conflicto importante que resultó en la ocupación de Francia en 1871. A pesar del conflicto, la Belle Époque que le siguió convirtió a Francia en el centro del arte y la cultura. La Casa de Worth sobrevivió a este período de transición.",
+      "images": ["img/Unidad1/guerraFrancoPrusiana.png"],
+      "date": "1870-1871"
+    },
+    {
+      "title": "La Gran Exposición Universal de Londres",
+      "description": "Promovida por el Príncipe Alberto, esposo de la Reina Victoria, fue un escaparate para los logros científicos e industriales de la época. La primera exposición internacional del mundo, mostrando inventos de ciencia e industria de todo el planeta. El Crystal Palace de Joseph Paxton fue construido para albergarla.",
+      "images": ["img/Unidad1/granExposicionLondres.jpg"],
+      "date": "1851"
+    },
+    {
+      "title": "Influencia en moda, arte y cultura",
+      "description": "Exhibió productos textiles y prendas de vestir de diversas partes del mundo, como la seda inglesa. Los beneficios se utilizaron para avanzar en la ciencia y las artes, llevando a la creación de instituciones como el Victoria and Albert Museum y el Royal Albert Hall. París siguió su ejemplo con sus propias exposiciones universales.",
+      "images": ["img/Unidad1/granExposicionLondres.jpg"],
+      "date": "1851"
+    },
+    {
+      "title": "Grandes Inventos del siglo 19",
+      "description": "<b>Invención del telégrafo (1835)</b>: Un avance significativo en la comunicación. Facilitó la difusión de noticias e ideas.<br> <b>Invención de la Bombilla(1879)</b>: Una innovación crucial en la iluminación. Aunque no se detalla, una mejor iluminación pudo haber afectado la presentación de la moda y la vida social nocturna. <br> <b>Invención del Teléfono (1876)</b>: Otro avance fundamental en la comunicación. Facilitó aún más la comunicación. <br> <b>Invención del Fonógrafo (1877)</b>:Permitió la grabación y reproducción de sonido.Un hito en el entretenimiento y la cultura, aunque sin impacto directo inmediato en la moda.<br><b>Invención de la Cámara Fotográfica de Cajón</b> (poco después del fonógrafo):  Hizo posible que la gente capturara la realidad por primera vez. Con la evolución de la fotografía en el siglo XX, su impacto en la moda sería enorme<br><b>Introducción del Carruaje sin Caballos (1885)</b>: El precursor del automóvil, mejorando el transporte. Con el tiempo, la necesidad de ropa adecuada para viajar en automóvil influyó en la moda.",
+      "images": ["img/Unidad1/telegrafo.png","img/Unidad1/bombilla.png","img/Unidad1/telefono.png","img/Unidad1/fonografo2.png","img/Unidad1/fonografo.png","img/Unidad1/kodak.png","img/Unidad1/carruajeSinCaballos.png","img/Unidad1/berthaBenz.png"],
+      "date": "1870-1871"
+    },
+    {
+      "title": "Exposiciones Universales de Paris (1855,1867,1878,1889,1900)",
+      "description": "Una serie de eventos internacionales en París que exhibieron maravillas de la tecnología, objetos decorativos y diseños de moda. Sirvieron como plataformas para mostrar las últimas tendencias en moda y diseño, influyendo en el gusto y la producción. La Exposición de 1889 es notable por la exhibición del corsé pectoral por Herminie Cadolle.",
+      "images": ["img/Unidad1/granExposicionParis.png","img/Unidad1/primerSujetador.png"],
+      "date": "1855"
+    },
+    {
+      "title": "Apertura de la Casa de Jacques Doucet (1875)",
+      "description": "Doucet abrió su propia casa de alta costura en París, conocida por sus batas de té, trajes a medida y abrigos de piel.",
+      "images": ["img/Unidad1/jacquesDoucet.png"],
+      "date": "1855"
+    },
+    {
+      "title": "Influencia en moda, arte y cultura",
+      "description": "Fue el primer diseñador en tratar la piel como un tejido. Sus diseños de vestidos de noche se inspiraban en pinturas de los siglos XVII y XVIII. Su salón se convirtió en un lugar de encuentro para diversas figuras de la sociedad. Empleó a futuros diseñadores importantes como Paul Poiret y Madeleine Vionnet.",
+      "images": ["img/Unidad1/jacquesDoucet.png"],
+      "date": ""
+    },
+    {
+      "title": "Exhibición del Corsé Pectoral por Herminie Cadolle en la Exposición Universal de 1889",
+      "description": "Un precursor del sujetador que sostenía los pechos con tirantes en los hombros. Posteriormente, añadió secciones elásticas y lo llamó \"Bien-être\". Representó un paso hacia una mayor comodidad y libertad en la vestimenta femenina, alejándose del corsé tradicional.",
+      "images": ["img/Unidad1/primerSujetador.png"],
+      "date": "1889"
+    },
+    {
+      "title": "Formación de la Chambre Syndicale de la Haute Couture ",
+      "description": "Una organización establecida para mantener los estándares del diseño de alta costura y proteger a los diseñadores de la piratería. Worth fue su primer presidente. Institucionalizó y protegió la industria de la alta costura francesa, asegurando su prestigio y calidad. ",
+      "images": ["img/Unidad1/ChambreSyndicaledelaHauteCouture.png"],
+      "date": "1910"
+    },
+    {
+      "title": "Charles Frederick Worth decreta la crinolina obsoleta",
+      "description": "Introduce una falda con cola y un polisón de crin",
+      "images": ["img/Unidad1/granExposicionParis.png"],
+      "date": "1864"
+    }
+  ]
+}
